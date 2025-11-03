@@ -1,6 +1,11 @@
 {
-  "name": "PaginaPrincipal",
+  "name": "pagina-principal",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "dev": "cd client && npm run dev",
+    "install-client": "cd client && npm install"
+  }
 }
