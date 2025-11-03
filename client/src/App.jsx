@@ -27,7 +27,7 @@ function App() {
         <div className="App">
           <Layout>
             <Routes>
-              {/* Rutas públicas */}
+              {/* Rutas públicas 
               <Route path="/" element={<HomePage />} />
               <Route path="/region" element={<RegionPage />} />
               <Route path="/region/:estado" element={<MunicipiosPage />} />
@@ -35,13 +35,15 @@ function App() {
               <Route path="/region/:estado/:municipio/:categoria" element={<NegociosPorUbicacionPage />} />
               <Route path="/:categoria" element={<NegociosPorCategoriaPage />} />
               <Route path="/notificaciones" element={<NotificacionesPage />} />
-              
+              */}
               {/* Página de ejemplo - Pabellón de Arteaga */}
+              <Route path="/" element={<HomePage />} />
               <Route path="/region/aguascalientes/pabellondearteaga" element={<PabellonArteagaPage />} />
               
-              {/* Rutas de administración */}
+              {/* Rutas de administración 
               <Route path="/admin/login" element={<AdminLoginPage />} />
               <Route path="/admin" element={<AdminDashboard />} />
+              */}
             </Routes>
           </Layout>
           
