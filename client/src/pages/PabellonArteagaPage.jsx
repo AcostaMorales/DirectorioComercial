@@ -218,17 +218,7 @@ const PabellonArteagaPage = () => {
         </div>
       </div>
 
-      {/* Nota temporal */}
-      <div className="temp-notice">
-        <div className="notice-card">
-          <h3>🚧 Página de Ejemplo</h3>
-          <p>
-            Esta es una página temporal de demostración para mostrar cómo se verá
-            el directorio comercial de Pabellón de Arteaga. Pronto se integrarán
-            los negocios reales de la comunidad.
-          </p>
-        </div>
-      </div>
+      
     </div>
   );
 };
